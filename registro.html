@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - Ryujinx Fan Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="LOGOS/Ryujinx_Logo.png" alt="Logo Ryujinx">
+            </div>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="quienes_somos.html">Quiénes somos</a></li>
+                <li><a href="#publicaciones">Publicaciones</a></li>
+                <li><a href="areas_de_actuacion.html">Áreas de actuación</a></li>
+                <li><a href="localizacion.html">Localización</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="registro">
+            <h2>Registro</h2>
+            <form action="#" method="post">
+                <label for="discord">Usuario de Discord:</label>
+                <input type="text" id="discord" name="discord" required>
+
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="tiempo">Tiempo usando el emulador (en meses):</label>
+                <input type="number" id="tiempo" name="tiempo" required>
+
+                <label for="pais">País de residencia:</label>
+                <input type="text" id="pais" name="pais" required>
+
+                <label for="idioma">Idioma principal:</label>
+                <select id="idioma" name="idioma" required>
+                    <option value="">Selecciona...</option>
+                    <option value="es">Español</option>
+                    <option value="en">Inglés</option>
+                    <option value="fr">Francés</option>
+                </select>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="plataforma">Plataforma de juego preferida:</label>
+                <input type="text" id="plataforma" name="plataforma" required>
+
+                <label for="juego-favorito">Juego de Nintendo Switch favorito:</label>
+                <input type="text" id="juego-favorito" name="juego-favorito" required>
+
+                <label for="motivo">Motivo por el cual quieres unirte al club:</label>
+                <textarea id="motivo" name="motivo" rows="4" required></textarea>
+
+                <label for="ocupacion">Ocupación:</label>
+                <input type="text" id="ocupacion" name="ocupacion" required>
+
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero" required>
+                    <option value="">Selecciona...</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="nivel-educativo">Nivel educativo:</label>
+                <select id="nivel-educativo" name="nivel-educativo" required>
+                    <option value="">Selecciona...</option>
+                    <option value="primaria">Primaria</option>
+                    <option value="secundaria">Secundaria</option>
+                    <option value="preparatoria">Preparatoria</option>
+                    <option value="universidad">Universidad</option>
+                    <option value="posgrado">Posgrado</option>
+                </select>
+
+                <label for="expectativas">Expectativas del club:</label>
+                <textarea id="expectativas" name="expectativas" rows="4" required></textarea>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+    </footer>
+</body>
+</html>

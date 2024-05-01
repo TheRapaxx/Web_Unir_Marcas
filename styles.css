@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+header nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.promotion {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center; /* Añadido para centrar el contenido */
+}
+
+.promotion h3 {
+    color: #d35400;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos para las secciones específicas */
+.article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.article div {
+    flex: 1;
+}
+
+.article h3 {
+    margin-top: 0;
+}
+
+.quienes-somos, .contacto {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.quienes-somos h2, .contacto h2 {
+    margin-top: 0;
+}
+
+.quienes-somos p, .contacto p {
+    margin-bottom: 15px;
+}
+
+.contacto form label, .contacto form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto form input, .quienes-somos form input, .quienes-somos form textarea, .contacto form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contacto form button, .quienes-somos form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contacto form button:hover, .quienes-somos form button:hover {
+    background-color: #555;
+}
+
+.registro {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.registro h2 {
+    margin-top: 0;
+}
+
+.registro form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registro form input[type="text"],
+.registro form input[type="email"],
+.registro form input[type="number"],
+.registro form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registro form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.registro form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registro form button:hover {
+    background-color: #555;
+}
+
+.localizacion {
+    text-align: left; /* Alineación del contenido a la izquierda */
+}
+
+.localizacion h2 {
+    margin-top: 0;
+}
+
+.localizacion p {
+    margin-bottom: 20px;
+}
+
+.areas {
+    text-align: left; /* Alineación del contenido a la izquierda */
+}
+
+.areas h2 {
+    margin-top: 0;
+}
+
+.areas p {
+    margin-bottom: 20px;
+}
+
+.areas ul {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    .container {
+        width: 90%; /* Porcentaje de ancho del contenedor */
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
